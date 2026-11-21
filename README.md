@@ -22,7 +22,7 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 
 ## Sources
 
-Euronews, Africanews, AP, AFP, Al Jazeera, Arab News, Rai News, UKMTO, the India Meteorological Department, Down To Earth, Japan's Statistics Bureau, Yahoo Finance, and Wikipedia (its Current Events portal for 20 November 2026, its Cyclone Akvan article and its scorecard of India's tour of New Zealand). All drawings are original SVG, written by hand in `poster.html`.
+Euronews, Africanews, AP, Reuters, BBC News, AFP, the Kyiv Independent, Al Jazeera, Arab News, Rai News, UKMTO, the India Meteorological Department, Down To Earth, Japan's Statistics Bureau, Yahoo Finance, and Wikipedia (its Current Events portal for 20 November 2026, its Cyclone Akvan article and its scorecard of India's tour of New Zealand). All drawings are original SVG, written by hand in `poster.html`.
 
 ## Rebuild the picture
 
