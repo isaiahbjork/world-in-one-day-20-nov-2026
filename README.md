@@ -18,11 +18,11 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 - **Three lead stories, ten more in tiles.** Each has its own drawing, a red label you can read at thumbnail size, a headline and the outlet it came from.
 - **Twenty-four more in one line each**, coloured by region, so the page covers Europe, the Middle East, Asia, Africa, the Americas, Oceania and global stories.
 - **A date check.** Stories first reported before Friday (the Shenzhen summit, the World Court's Myanmar ruling) are named and left out.
-- **As reported.** Counts are the ones outlets gave on the day. Where only a forecast could be confirmed (Cyclone Akvan's landfall), the page says forecast.
+- **As reported.** Counts are the ones outlets and officials gave on the day, and each story names where it came from. Stories that could not be confirmed for 20 November were left off the page.
 
 ## Sources
 
-Euronews, Africanews, AP, AFP, Al Jazeera, Arab News, Rai News, UKMTO, the India Meteorological Department, Down To Earth, Japan's Statistics Bureau, Yahoo Finance and Wikipedia's Current Events portal for 20 November 2026. All drawings are original SVG, written by hand in `poster.html`.
+Euronews, Africanews, AP, AFP, Al Jazeera, Arab News, Rai News, UKMTO, the India Meteorological Department, Down To Earth, Japan's Statistics Bureau, Yahoo Finance, and Wikipedia (its Current Events portal for 20 November 2026, its Cyclone Akvan article and its scorecard of India's tour of New Zealand). All drawings are original SVG, written by hand in `poster.html`.
 
 ## Rebuild the picture
 
