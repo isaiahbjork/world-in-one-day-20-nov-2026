@@ -20,6 +20,16 @@ from PIL import Image
 src, dst = sys.argv[1], sys.argv[2]
 im = Image.open(src).convert("RGB")
 assert im.size == (1024, 1024), im.size
-im.save(dst, "PNG", optimize=True)
+# The page is flat colour and type, so a 256-colour palette is visually lossless
+# and a third of the bytes (smaller files win ties). No dithering: it would
+# speckle the flat areas and cost bytes.
+small = im.quantize(colors=160, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.NONE)
+small.save(dst, "PNG", optimize=True)
 print(dst, im.size)
 PY
+
+# pngquant chooses a closer palette than Pillow, so prefer it when installed.
+if command -v pngquant >/dev/null 2>&1; then
+  pngquant --speed 1 --strip --nofs --force 160 -o entry.png "$RAW"
+fi
+wc -c entry.png
